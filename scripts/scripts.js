@@ -1,6 +1,6 @@
 const emailInput = document.getElementById('client-email');
 
-function orderphoto shoot(event) {
+function orderPhotoShoot(event) {
     const value = emailInput.value;
     if (!value) {
         alert('Email is required');
@@ -13,4 +13,4 @@ function orderphoto shoot(event) {
 
 const form = document.getElementById('email-form');
 
-form.addEventListener('submit', orderphoto shoot);
+form.addEventListener('submit', orderPhotoShoot);
